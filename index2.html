@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            border: 3px solid #ff0000;
+        }
+        .container > a {
+            padding: 10px;
+            text-align: center;
+            font-size: 14sp;
+            border: 1px solid #ffd700;
+            background-color: #fd9494;
+            text-decoration: none;
+        }
+
+        header {
+            padding-left: 100px;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .row .col {
+            display: flex;
+            flex: 1;
+            align-content: center;
+            justify-content: center;
+        }
+
+        .container .logo {
+            margin-right: auto;
+        }
+        
+        .row .col .input {
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+
+        .content-table {
+	        font-family: sans-serif;
+	        color: #232323;
+            border-collapse: collapse;
+        }
+        .content-table, th, td {
+            border: 1px solid #999;
+            padding: 8px 20px;
+            margin-right: 15px;
+        }
+
+        footer {
+            font-family: 'Libre Franklin', sans-serif;
+            background-color: #fd9494;
+            color: white;
+            padding: 10px;
+            text-align: end;
+            margin-top: 75px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="container">
+        <img src="img/logo-revou.png" alt="" class="logo" width="40" height="40">
+        <a href="#">Home</a>
+        <a href="#">My Profile</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Message Us</a>
+        
+    </nav>
+
+    <header>
+        <h1>Latihan 1 </h1>
+        <h5>ini adalah halaman latihan pertama</h5><br>
+    </header>
+
+    <div class="row">
+        <div class="col">
+            <form action="" class="content-form">
+                <fieldset>
+                    <legend>Input data diri</legend>
+                <div>
+                    <label for="nama">Nama :</label>
+                    <input type="text" name="" id="nama" placeholder="nama lengkap...">
+                </div><br>
+
+                <div>
+                    <label for="email">Email :</label>
+                    <input type="email" name="email" id="email" placeholder="Your email..." />
+                </div><br>
+    
+                <div>
+                    <label for="tgl_lahir">Tanggal Lahir :</label>
+                    <input type="date" name="lahir" id="tgl_lahir">
+                </div><br>
+    
+                <div>
+                <label for="jk">Jenis Kelamin :</label>
+                <input type="radio" id="laki-laki" name="pilih" value="Laki-laki">
+                <label for="laki-laki">Laki-laki</label>
+                <input type="radio" id="perempuan" name="pilih" value="Perempuan">
+                <label for="perempuan">Perempuan</label>
+                </div><br>
+    
+                <div>
+                <label for="pesan">Pesan :</label>
+                <textarea name="pesan" id="pesan" cols="40" rows="5" placeholder="pesan..."></textarea>
+                </div><br>
+    
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+            </form>
+        </div>
+        <div class="col">
+            <table class="content-table">
+                <tr>
+                    <th>Nama</th>
+                    <th>Tanggal Lahir</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Pesan</th>
+                    <th>Profile</th>
+                    <th>Delete</th>
+                </tr>
+                <tr>
+                    <td>Hamidi</td>
+                    <td>Desember 20, 1999</td>
+                    <td>Laki-laki</td>
+                    <td>Belajar buat website</td>
+                    <td><a href="">Klik Disini</a></td>
+                    <td><img src="img/delete.png" alt="" width="20" height="20"></td>
+                </tr>
+                <tr>
+                    <td>Hamidi</td>
+                    <td>Desember 20, 1999</td>
+                    <td>Laki-laki</td>
+                    <td>Belajar buat website</td>
+                    <td><a href="">Klik Disini</a></td>
+                    <td><img src="img/delete.png" alt="" width="20" height="20"></td>
+                </tr>
+                <tr>
+                    <td>Hamidi</td>
+                    <td>Desember 20, 1999</td>
+                    <td>Laki-laki</td>
+                    <td>Belajar buat website</td>
+                    <td><a href="">Klik Disini</a></td>
+                    <td><img src="img/delete.png" alt="" width="20" height="20"></td>
+                </tr>
+                <tr>
+                    <td>Hamidi</td>
+                    <td>Desember 20, 1999</td>
+                    <td>Laki-laki</td>
+                    <td>Belajar buat website</td>
+                    <td><a href="">Klik Disini</a></td>
+                    <td><img src="img/delete.png" alt="" width="20" height="20"></td>
+                </tr>
+                
+            </table>	
+        </div>
+    </div>
+
+    <footer>
+        Create by <a href="">@Hamidi</a>
+    </footer>
+    
+</body>
+</html>
