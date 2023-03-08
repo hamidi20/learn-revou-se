@@ -1,46 +1,340 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HMD | Website</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sahabat Travel | Travel Agent</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- start header -->
+    <header>
+      <nav class="container">
+        <div class="navbar">
+          <img class="logo" src="assets/img/logo.png" alt="" />
+          <div class="menu">
+            <a class="menu-item" href="#hero">Home</a>
+            <a class="menu-item" href="#ourpackage">Our Package</a>
+            <a class="menu-item" href="#call-action">Call Us</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- end header -->
 
-    <div class="judul">
-        <h1>Latihan 1 </h1>
-        <p>ini adalah halaman latihan pertama</p><br>
+    <!-- start main -->
+    <main>
+      <!-- start hero section -->
+      <secttion id="hero">
+        <div class="container">
+          <div class="hero-title">
+            <h1>Explore The Beautiful World As Easy One Click</h1>
+            <h6>you will see beautiful moment you never see before</h6>
+          </div>
+        </div>
+      </secttion>
+      <section id="about-contact">
+        <div class="container">
+          <div class="about-contact">
+            <div class="about">
+              <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 4</div>
+                  <img src="assets/img/hero-bromo.jpg" style="width: 100%" />
+                  <div class="text">Bromo, Malang</div>
+                </div>
 
-        <form action="">
-            <div style="padding-bottom: 10px;">
-                <label for="nama">Nama :</label>
-                <input type="text" name="" id="nama">
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 4</div>
+                  <img src="assets/img/hero-jam-gadang.jpg" style="width: 100%" />
+                  <div class="text">Jam Gadang, Bukittinggi</div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 4</div>
+                  <img src="assets/img/hero-marawa-beach.jpg" style="width: 100%" />
+                  <div class="text">Marawa Beach, Padang</div>
+                </div>
+                <div class="mySlides fade">
+                  <div class="numbertext">4 / 4</div>
+                  <img src="assets/img/hero-cappadocia.jpg" style="width: 100%" />
+                  <div class="text">Cappadocia, Turki</div>
+                </div>
+              </div>
+              <div class="slide-indicator" style="text-align: center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+
+              <div class="about-content">
+                <div class="content-caption">
+                  <p>" I loved it when the waves was shaking harder - I was scared to "</p>
+                </div>
+                <div class="content-person">
+                  <img src="assets/img/Myphotos.png" alt="" style="width: 50px; height: 50px" />
+                  <div class="person-info">
+                    <h6>Hamidi, 23</h6>
+                    <p>Trip to | Bromo</p>
+                  </div>
+                </div>
+              </div>
+              <div class="about-content">
+                <div class="content-caption">
+                  <p>" I loved it when the waves was shaking harder - I was scared to "</p>
+                </div>
+                <div class="content-person">
+                  <img src="assets/img/testimonial-2@2x.png" alt="" style="width: 50px; height: 50px" />
+                  <div class="person-info">
+                    <h6>Monkey D Luffy, 25</h6>
+                    <p>Trip to | Jam Gadang</p>
+                  </div>
+                </div>
+              </div>
+              <div class="about-content">
+                <div class="content-caption">
+                  <p>" I loved it when the waves was shaking harder - I was scared to "</p>
+                </div>
+                <div class="content-person">
+                  <img src="assets/img/zoro.jpg" alt="" style="width: 50px; height: 50px" />
+                  <div class="person-info">
+                    <h6>Roronoa Zoro, 28</h6>
+                    <p>Trip to | Marawa Beach</p>
+                  </div>
+                </div>
+              </div>
+              <hr class="border" />
+              <div class="about-information">
+                <h6 class="information-title">Use this space to provide users with more information about your offer. consider it a follow-up to your headline and explain the benefits of your service of product</h6>
+                <ul class="information-list">
+                  <li>
+                    <div class="list-number">1</div>
+                    <p class="list-paragraf">Your first feature, written in the form of a benefit statement</p>
+                  </li>
+                  <li>
+                    <div class="list-number">2</div>
+                    <p class="list-paragraf">Your second feature, written in the form of a benefit statement</p>
+                  </li>
+                  <li>
+                    <div class="list-number">3</div>
+                    <p class="list-paragraf">Your third feature, written in the form of a benefit statement</p>
+                  </li>
+                </ul>
+              </div>
             </div>
+            <div class="contact">
+              <div class="contact-card">
+                <div class="card-title">
+                  <h4>Contact Us</h4>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <form action="">
+                  <div class="input">
+                    <label for="nama">Your name</label>
+                    <input type="text" name="name" id="nama" placeholder="First and Last name" />
+                  </div>
+                  <div class="input">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="example@gmail.com" />
+                  </div>
+                  <div class="input">
+                    <label for="phone">Phone Number</label>
+                    <input type="number" name="phone" id="phone" placeholder="+6281316XXXXXX" />
+                  </div>
+                  <div class="input">
+                    <label for="interest">Interest</label>
+                    <select name="interest" id="interest">
+                      <option value="">--Select Option--</option>
+                      <option value="">Bromo, Malang</option>
+                      <option value="">Ubud, Bali</option>
+                      <option value="">Jam Gadang, Padang</option>
+                      <option value="">Cappadocia, Turki</option>
+                      <option value="">Pantai Kuta, Lombok</option>
+                      <option value="">Merawa Beach, Padang</option>
+                    </select>
+                  </div>
 
-            <div style="padding-bottom: 10px;">
-                <label for="tgl_lahir">Tempat & Tanggal Lahir :</label>
-                <input type="text">
-                <input type="date" name="" id="tgl_lahir">
+                  <div class="input">
+                    <label for="pesan">Message</label>
+                    <textarea name="" id="pesan" cols="30" rows="8" placeholder="Your Message"></textarea>
+                  </div>
+                  <input class="btn-input" type="submit" value="Send" />
+                </form>
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <!-- end hero section -->
 
-            <div style="padding-bottom: 10px;">
-            <label for="jk">Jenis Kelamin :</label>
-            <input type="radio" id="laki-laki" name="pilih" value="Laki-laki">
-            <label for="laki-laki">Laki-laki</label>
-            <input type="radio" id="perempuan" name="pilih" value="Perempuan">
-            <label for="perempuan">Perempuan</label>
+      <!-- start ourpackage section -->
+      <section id="ourpackage">
+        <div class="ourpackage">
+          <div class="ourpackage-title">
+            <h1>Our Package</h1>
+          </div>
+          <div class="ourpackage-title">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, autem.</p>
+          </div>
+        </div>
+        <div class="package-group">
+          <div class="package-group-card">
+            <img class="group-card-img" src="assets/img/bromo.png" alt="" />
+            <div class="group-card-body">
+              <h5 class="card-title">Bromo, Malang</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-btn">Get Started</a>
             </div>
-
-            <div style="padding-bottom: 10px;">
-            <label for="pesan">Pesan :</label>
-            <input type="text" id="pesan">
+          </div>
+          <div class="package-group-card">
+            <img class="group-card-img" src="assets/img/ubub-bali.jpg" alt="" />
+            <div class="group-card-body">
+              <h5 class="card-title">Ubub bali</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-btn">Get Started</a>
             </div>
+          </div>
+          <div class="package-group-card">
+            <img class="group-card-img" src="assets/img/jam-gadang.jpg" alt="" />
+            <div class="group-card-body">
+              <h5 class="card-title">Jam Gadang, Padang</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-btn">Get Started</a>
+            </div>
+          </div>
+          <div class="package-group-card">
+            <img class="group-card-img" src="assets/img/cappadocia.jpg" alt="" />
+            <div class="group-card-body">
+              <h5 class="card-title">Cappadocia, Turki</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-btn">Get Started</a>
+            </div>
+          </div>
+          <div class="package-group-card">
+            <img class="group-card-img" src="assets/img/pantai-kuta.jpg" alt="" />
+            <div class="group-card-body">
+              <h5 class="card-title">Pantai Kuta, Lombok</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-btn">Get Started</a>
+            </div>
+          </div>
+          <div class="package-group-card">
+            <img class="group-card-img" src="assets/img/marawa-beach.jpg" alt="" />
+            <div class="group-card-body">
+              <h5 class="card-title">Marawa beach, Padang</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-btn">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end ourpackage section -->
 
-            <input type="submit" name="submit" id="submit">
-        </form>
-   
-    </div>
-    
-</body>
+      <!-- start our network -->
+      <section class="section-networks" id="networks">
+        <div class="ournetwork">
+          <div class="ournetwork-title">
+            <h1>Our Networks</h1>
+            <p>
+              companies are trusted us
+              <br />
+              more than just a trip
+            </p>
+          </div>
+          <div class="ournetwork-img">
+            <img class="img-partner" src="assets/img/partner.png" alt="logo partner" />
+          </div>
+        </div>
+      </section>
+      <!-- end our network -->
+
+      <!--start call to action -->
+      <section id="call-action">
+        <div class="call-action">
+          <h1>Your Closing Argument Headline</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ea suscipit magnam accusamus consectetur, quaerat voluptatem velit eaque molestias pariatur.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Delectus, libero?
+          </p>
+          <button>Call To Action</button>
+        </div>
+      </section>
+      <!--end call to action -->
+    </main>
+    <!-- end main -->
+
+    <!-- start footer -->
+    <footer id="footer">
+      <div class="footer">
+        <div class="footer-title">
+          <h5>FEATURES</h5>
+          <ul class="footer-title-list">
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Social Media Kit</a></li>
+            <li><a href="#">Affiliate</a></li>
+          </ul>
+        </div>
+        <div class="footer-title">
+          <h5>ACCOUNT</h5>
+          <ul class="footer-title-list">
+            <li><a href="#">Refund</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Reward</a></li>
+          </ul>
+        </div>
+        <div class="footer-title">
+          <h5>COMPANY</h5>
+          <ul class="footer-title-list">
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Media</a></li>
+          </ul>
+        </div>
+        <div class="footer-title">
+          <h5>GET CONNECTED</h5>
+          <ul class="footer-title-list">
+            <li><a href="#">Jakarta Selatan</a></li>
+            <li><a href="#">Indonesia</a></li>
+            <li><a href="#">0813-1686-0060</a></li>
+            <li><a href="#">support@shbttravel.id</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-finish">
+        <img src="assets/img/logo.png" alt="" />
+
+        <p>Terms of Service | Privacy Policy</p>
+        <p>@2023 Sahabattravel</p>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <script>
+      let slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+    </script>
+  </body>
 </html>
